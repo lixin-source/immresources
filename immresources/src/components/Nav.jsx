@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div id='wholeNav'>
     <div className="titleHome"> 
-        <h1>Resources for</h1>
+        <h5>Resources for</h5>
     </div>
       {/* NAV */}
       <nav>

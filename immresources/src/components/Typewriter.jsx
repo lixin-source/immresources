@@ -5,14 +5,14 @@ function Type() {
   return (
     <div className="homeGreet">
       <h2 className="homeGreetStatic">
-        Immigrants
+        Immigrants {" "}
         <span className="typewriter-container">
           <Typewriter
             options={{
               strings: [
-                "are the backbone",
-                "deserve compensation",
-                "have rights",
+                " are the backbone",
+                " deserve compensation",
+                " have rights",
               ],
               autoStart: true,
               loop: true,
