@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Rubik&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#lato {
+  font-family: 'Lato', sans-serif;
+}
+
+#poppins {
+
+font-family: 'Poppins', sans-serif;
+}
+
+#rubik {
+
+font-family: 'Rubik', sans-serif;
+}
