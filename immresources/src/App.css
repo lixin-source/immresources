@@ -7,16 +7,57 @@
   text-align: center;
 }
 
-#lato {
-  font-family: 'Lato', sans-serif;
+
+/* LAYOUT.JSX */
+nav {
+  position: fixed; 
+  top: 0; 
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px 50px;
 }
 
-#poppins {
-
-font-family: 'Poppins', sans-serif;
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align content horizontally in the center */
+  text-align: left; /* Center text within the div */
+  font-family: 'Lato', sans-serif; 
 }
 
-#rubik {
+.nav-header h1 {
+  margin: 0; /* Remove default margin for h1 */
+  font-size: xx-large;
 
-font-family: 'Rubik', sans-serif;
+}
+
+.nav-header p {
+  margin: 0; /* Remove default margin for p */
+  font-family: 'Rubik', sans-serif; 
+  color: #5F0540;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif; 
+  transition: all 0.2s ease-in-out;
+  padding: 20px;
+  color: #9A031E;
+}
+
+.nav-links a:hover {
+  color: #E36414;
 }

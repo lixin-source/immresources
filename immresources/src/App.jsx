@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
-import Home from './pages/Home.jsx';
+import Typewriter from "./components/Typewriter";
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <h1 id='latos'>latos</h1>
       <h1 id='poppins'>poppins</h1>
       <h1 id='rubik'>rubik</h1> */}
-      <Home/>
+      <Typewriter/>
     </div>
   )
 }

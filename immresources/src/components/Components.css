@@ -1,23 +1,21 @@
 /* TYPEWRITER.JSX */
+.homeGreet {
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.homeGreetStatic {
+  color: black;
+}
+
 .typewriter-container {
     display: inline-block;
     vertical-align: middle;
     padding-bottom: 4px;
+    color: #E36414;
   }
 
-/* NAV.JSX */
-#wholeNav {
-    display: flex;
-    align-items: center;
-  }
-
-  .titleHome {
-    flex-grow: 1;
-  }
-  
-  nav {
-    text-align: right;
-    padding: 30px 0;
-    padding-right: 100px;
-  }
 
